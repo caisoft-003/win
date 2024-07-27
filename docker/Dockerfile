@@ -1,5 +1,5 @@
 # FROM fedora:latest
-FROM fedora:39
+FROM fedora:40
 LABEL describe="Fedora for WeChat hook, base on LXDE, Wine, xRDP, WeChatFerry."
 
 WORKDIR /root
