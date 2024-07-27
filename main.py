@@ -46,6 +46,7 @@ def initialize_sdk():
     registerCleanup()
     # 初始化
     logging.info('SDK 初始化...')
+    logging.info('path ...')
     if sdk.WxInitSDK(True, 10086) != 0:
         logging.error('SDK 初始化失败！')
         os._exit(-1)
